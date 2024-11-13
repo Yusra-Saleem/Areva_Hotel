@@ -98,7 +98,7 @@ function RoomCard({ room }: { room: Room }) {
             </span>
           ))}
         </div>
-        <Button className="w-full">Book Now</Button>
+        <Button className="border border-black text-black hover:text-white hover:bg-black/70 w-72">Book Now</Button>
       </CardContent>
     </Card>
   )
