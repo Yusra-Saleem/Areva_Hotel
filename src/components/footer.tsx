@@ -40,16 +40,16 @@ export default function Footer() {
                 <Link href="/about" className="hover:text-primary">About Us</Link>
               </li>
               <li>
-                <Link href="/rooms" className="hover:text-primary">Our Rooms</Link>
-              </li>
-              <li>
-                <Link href="/services" className="hover:text-primary">Services</Link>
+                <Link href="/room" className="hover:text-primary">Our Rooms</Link>
               </li>
               <li>
                 <Link href="/blog" className="hover:text-primary">Blog</Link>
               </li>
               <li>
                 <Link href="/contact" className="hover:text-primary">Contact</Link>
+              </li>
+               <li>
+                <Link href="/book-now" className="hover:text-primary">Booking</Link>
               </li>
             </ul>
           </div>
@@ -84,7 +84,7 @@ export default function Footer() {
                 aria-label="Email for newsletter"
                 required
               />
-              <Button type="submit" className="w-full">
+              <Button type="submit" className="w-full border border-white bg-gray-200 text-black hover:text-white hover:bg-transparent">
                 Subscribe
               </Button>
             </form>
