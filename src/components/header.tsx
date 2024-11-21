@@ -12,7 +12,7 @@ function Header() {
     <div>
        {/* Navigation */}
        <header className="fixed top-0 px-6 z-50 w-full bg-white/60 backdrop-blur">
-           <div className="w-full md:w-[90vw] lg:w-[80vw] md:flex  md:justify-center md:items-center">
+           <div className="w-full md:w-[90vw] lg:w-[80vw] md:flex  md:justify-center md:items-center mx-auto">
         <div className="container flex h-16 w-full items-center justify-between">
           <Link href="/" className="text-2xl font-bold">
             Areva
