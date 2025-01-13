@@ -93,7 +93,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 border-t border-border pt-8 text-center">
-          <p>&copy; {new Date().getFullYear()} Areva Hotels. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Areva Hotels-by YUSRA SALEEM. All rights reserved.</p>
           <div className="mt-2 space-x-4">
             <Link href="/privacy-policy" className="text-sm hover:text-primary">
               Privacy Policy
